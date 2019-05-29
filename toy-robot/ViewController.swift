@@ -29,9 +29,11 @@ class ViewController: UIViewController {
     @IBAction func executeCommander(_ sender: Any) {
         commander.execute()
         commander.commanderArray.removeAll()
+        commander.robot.reportArray.removeAll()
         self.xText.text = nil
         self.yText.text = nil
         self.directionText.text = nil
+        performSegue(withIdentifier: "Show_Report", sender: nil)
     }
     
     @IBAction func moveCommand(_ sender: Any) {
@@ -50,5 +52,10 @@ class ViewController: UIViewController {
         commander.parse(command: "REPORT")
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let reportVC = segue.destination as? ReportTableViewController {
+            reportVC.reportArray = commander.robot.reportArray
+        }
+    }
 }
 

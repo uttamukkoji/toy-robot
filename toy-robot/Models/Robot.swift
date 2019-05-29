@@ -13,8 +13,8 @@ class Robot {
     var reportArray: [String] = []
     func report() {
         if isPlaced {
-            reportArray.append("\(position!.x), \(position!.y), \(position!.direction)")
-            os_log(OSLogType.info, "%@", "\(position!.x), \(position!.y), \(position!.direction)")
+            reportArray.append("\(position!.x), \(position!.y), \(position!.direction.description)")
+            os_log(OSLogType.info, "%@", "\(position!.x), \(position!.y), \(position!.direction.description)")
         }
     }
     

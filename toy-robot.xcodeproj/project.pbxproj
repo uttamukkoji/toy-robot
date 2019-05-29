@@ -17,6 +17,7 @@
 		0F002DEA229F1A7200F8C1B6 /* RobotTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F002DE9229F1A7200F8C1B6 /* RobotTest.swift */; };
 		0F002DEC229F1C4700F8C1B6 /* PositionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F002DEB229F1C4700F8C1B6 /* PositionTest.swift */; };
 		0F002DEE229F1EA700F8C1B6 /* CommanderTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F002DED229F1EA700F8C1B6 /* CommanderTest.swift */; };
+		0F002DF2229F257400F8C1B6 /* ReportTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F002DF1229F257400F8C1B6 /* ReportTableViewController.swift */; };
 		0F06EDB2229D5DB200E7C435 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F06EDB1229D5DB200E7C435 /* AppDelegate.swift */; };
 		0F06EDB4229D5DB200E7C435 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F06EDB3229D5DB200E7C435 /* ViewController.swift */; };
 		0F06EDB7229D5DB200E7C435 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F06EDB5229D5DB200E7C435 /* Main.storyboard */; };
@@ -54,6 +55,7 @@
 		0F002DE9229F1A7200F8C1B6 /* RobotTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotTest.swift; sourceTree = "<group>"; };
 		0F002DEB229F1C4700F8C1B6 /* PositionTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionTest.swift; sourceTree = "<group>"; };
 		0F002DED229F1EA700F8C1B6 /* CommanderTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommanderTest.swift; sourceTree = "<group>"; };
+		0F002DF1229F257400F8C1B6 /* ReportTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportTableViewController.swift; sourceTree = "<group>"; };
 		0F06EDAE229D5DB200E7C435 /* toy-robot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "toy-robot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F06EDB1229D5DB200E7C435 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F06EDB3229D5DB200E7C435 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 				0F06EDD1229D5E2C00E7C435 /* Models */,
 				0F06EDB1229D5DB200E7C435 /* AppDelegate.swift */,
 				0F06EDB3229D5DB200E7C435 /* ViewController.swift */,
+				0F002DF1229F257400F8C1B6 /* ReportTableViewController.swift */,
 				0F06EDB5229D5DB200E7C435 /* Main.storyboard */,
 				0F06EDB8229D5DB500E7C435 /* Assets.xcassets */,
 				0F06EDBA229D5DB500E7C435 /* LaunchScreen.storyboard */,
@@ -313,6 +316,7 @@
 				0F06EDDC229D658300E7C435 /* Descriptable.swift in Sources */,
 				0F06EDB2229D5DB200E7C435 /* AppDelegate.swift in Sources */,
 				0F06EDD9229D650900E7C435 /* Direction.swift in Sources */,
+				0F002DF2229F257400F8C1B6 /* ReportTableViewController.swift in Sources */,
 				0F002DE3229E49F100F8C1B6 /* String+Extension.swift in Sources */,
 				0F002DDB229E44D100F8C1B6 /* Report.swift in Sources */,
 			);
