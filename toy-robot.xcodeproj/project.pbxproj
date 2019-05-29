@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F002DD9229E445100F8C1B6 /* Executable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F002DD8229E445100F8C1B6 /* Executable.swift */; };
+		0F002DDB229E44D100F8C1B6 /* Report.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F002DDA229E44D100F8C1B6 /* Report.swift */; };
+		0F002DDE229E457D00F8C1B6 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F002DDD229E457D00F8C1B6 /* Place.swift */; };
+		0F002DE0229E46EF00F8C1B6 /* Commander.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F002DDF229E46EF00F8C1B6 /* Commander.swift */; };
+		0F002DE3229E49F100F8C1B6 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F002DE2229E49F100F8C1B6 /* String+Extension.swift */; };
+		0F002DE6229F0A3D00F8C1B6 /* TestData in Resources */ = {isa = PBXBuildFile; fileRef = 0F002DE5229F0A3D00F8C1B6 /* TestData */; };
+		0F002DE8229F175300F8C1B6 /* TableTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F002DE7229F175300F8C1B6 /* TableTest.swift */; };
+		0F002DEA229F1A7200F8C1B6 /* RobotTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F002DE9229F1A7200F8C1B6 /* RobotTest.swift */; };
+		0F002DEC229F1C4700F8C1B6 /* PositionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F002DEB229F1C4700F8C1B6 /* PositionTest.swift */; };
+		0F002DEE229F1EA700F8C1B6 /* CommanderTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F002DED229F1EA700F8C1B6 /* CommanderTest.swift */; };
+		0F06EDB2229D5DB200E7C435 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F06EDB1229D5DB200E7C435 /* AppDelegate.swift */; };
+		0F06EDB4229D5DB200E7C435 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F06EDB3229D5DB200E7C435 /* ViewController.swift */; };
+		0F06EDB7229D5DB200E7C435 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F06EDB5229D5DB200E7C435 /* Main.storyboard */; };
+		0F06EDB9229D5DB500E7C435 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F06EDB8229D5DB500E7C435 /* Assets.xcassets */; };
+		0F06EDBC229D5DB500E7C435 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F06EDBA229D5DB500E7C435 /* LaunchScreen.storyboard */; };
+		0F06EDC7229D5DB500E7C435 /* toy_robotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F06EDC6229D5DB500E7C435 /* toy_robotTests.swift */; };
+		0F06EDD3229D5EAB00E7C435 /* Table.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F06EDD2229D5EAB00E7C435 /* Table.swift */; };
+		0F06EDD5229D608900E7C435 /* Robot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F06EDD4229D608900E7C435 /* Robot.swift */; };
+		0F06EDD7229D60D700E7C435 /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F06EDD6229D60D700E7C435 /* Position.swift */; };
+		0F06EDD9229D650900E7C435 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F06EDD8229D650900E7C435 /* Direction.swift */; };
+		0F06EDDC229D658300E7C435 /* Descriptable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F06EDDB229D658300E7C435 /* Descriptable.swift */; };
+		0F06EDDF229D6ED400E7C435 /* Left.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F06EDDE229D6ED400E7C435 /* Left.swift */; };
+		0F06EDE1229D6EDE00E7C435 /* Right.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F06EDE0229D6EDE00E7C435 /* Right.swift */; };
+		0F06EDE3229D6EE600E7C435 /* Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F06EDE2229D6EE600E7C435 /* Move.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F06EDC3229D5DB500E7C435 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F06EDA6229D5DB200E7C435 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F06EDAD229D5DB200E7C435;
+			remoteInfo = "toy-robot";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F002DD8229E445100F8C1B6 /* Executable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Executable.swift; sourceTree = "<group>"; };
+		0F002DDA229E44D100F8C1B6 /* Report.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Report.swift; sourceTree = "<group>"; };
+		0F002DDD229E457D00F8C1B6 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		0F002DDF229E46EF00F8C1B6 /* Commander.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commander.swift; sourceTree = "<group>"; };
+		0F002DE2229E49F100F8C1B6 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		0F002DE5229F0A3D00F8C1B6 /* TestData */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestData; sourceTree = "<group>"; };
+		0F002DE7229F175300F8C1B6 /* TableTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableTest.swift; sourceTree = "<group>"; };
+		0F002DE9229F1A7200F8C1B6 /* RobotTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotTest.swift; sourceTree = "<group>"; };
+		0F002DEB229F1C4700F8C1B6 /* PositionTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionTest.swift; sourceTree = "<group>"; };
+		0F002DED229F1EA700F8C1B6 /* CommanderTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommanderTest.swift; sourceTree = "<group>"; };
+		0F06EDAE229D5DB200E7C435 /* toy-robot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "toy-robot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F06EDB1229D5DB200E7C435 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0F06EDB3229D5DB200E7C435 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0F06EDB6229D5DB200E7C435 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0F06EDB8229D5DB500E7C435 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0F06EDBB229D5DB500E7C435 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0F06EDBD229D5DB500E7C435 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F06EDC2229D5DB500E7C435 /* toy-robotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "toy-robotTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F06EDC6229D5DB500E7C435 /* toy_robotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toy_robotTests.swift; sourceTree = "<group>"; };
+		0F06EDC8229D5DB500E7C435 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F06EDD2229D5EAB00E7C435 /* Table.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Table.swift; sourceTree = "<group>"; };
+		0F06EDD4229D608900E7C435 /* Robot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Robot.swift; sourceTree = "<group>"; };
+		0F06EDD6229D60D700E7C435 /* Position.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Position.swift; sourceTree = "<group>"; };
+		0F06EDD8229D650900E7C435 /* Direction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
+		0F06EDDB229D658300E7C435 /* Descriptable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Descriptable.swift; sourceTree = "<group>"; };
+		0F06EDDE229D6ED400E7C435 /* Left.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Left.swift; sourceTree = "<group>"; };
+		0F06EDE0229D6EDE00E7C435 /* Right.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Right.swift; sourceTree = "<group>"; };
+		0F06EDE2229D6EE600E7C435 /* Move.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Move.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F06EDAB229D5DB200E7C435 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F06EDBF229D5DB500E7C435 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F002DDC229E453800F8C1B6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0F06EDD8229D650900E7C435 /* Direction.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		0F002DE1229E49DD00F8C1B6 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0F002DE2229E49F100F8C1B6 /* String+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		0F002DE4229F09D000F8C1B6 /* TestData */ = {
+			isa = PBXGroup;
+			children = (
+				0F002DE5229F0A3D00F8C1B6 /* TestData */,
+			);
+			path = TestData;
+			sourceTree = "<group>";
+		};
+		0F06EDA5229D5DB200E7C435 = {
+			isa = PBXGroup;
+			children = (
+				0F06EDB0229D5DB200E7C435 /* toy-robot */,
+				0F06EDC5229D5DB500E7C435 /* toy-robotTests */,
+				0F06EDAF229D5DB200E7C435 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F06EDAF229D5DB200E7C435 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F06EDAE229D5DB200E7C435 /* toy-robot.app */,
+				0F06EDC2229D5DB500E7C435 /* toy-robotTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F06EDB0229D5DB200E7C435 /* toy-robot */ = {
+			isa = PBXGroup;
+			children = (
+				0F002DE1229E49DD00F8C1B6 /* Extension */,
+				0F002DDC229E453800F8C1B6 /* Utils */,
+				0F06EDDD229D6EC600E7C435 /* Commands */,
+				0F06EDDA229D656F00E7C435 /* Protocols */,
+				0F06EDD1229D5E2C00E7C435 /* Models */,
+				0F06EDB1229D5DB200E7C435 /* AppDelegate.swift */,
+				0F06EDB3229D5DB200E7C435 /* ViewController.swift */,
+				0F06EDB5229D5DB200E7C435 /* Main.storyboard */,
+				0F06EDB8229D5DB500E7C435 /* Assets.xcassets */,
+				0F06EDBA229D5DB500E7C435 /* LaunchScreen.storyboard */,
+				0F06EDBD229D5DB500E7C435 /* Info.plist */,
+			);
+			path = "toy-robot";
+			sourceTree = "<group>";
+		};
+		0F06EDC5229D5DB500E7C435 /* toy-robotTests */ = {
+			isa = PBXGroup;
+			children = (
+				0F002DE4229F09D000F8C1B6 /* TestData */,
+				0F06EDC6229D5DB500E7C435 /* toy_robotTests.swift */,
+				0F06EDC8229D5DB500E7C435 /* Info.plist */,
+				0F002DE7229F175300F8C1B6 /* TableTest.swift */,
+				0F002DE9229F1A7200F8C1B6 /* RobotTest.swift */,
+				0F002DEB229F1C4700F8C1B6 /* PositionTest.swift */,
+				0F002DED229F1EA700F8C1B6 /* CommanderTest.swift */,
+			);
+			path = "toy-robotTests";
+			sourceTree = "<group>";
+		};
+		0F06EDD1229D5E2C00E7C435 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0F06EDD2229D5EAB00E7C435 /* Table.swift */,
+				0F06EDD4229D608900E7C435 /* Robot.swift */,
+				0F06EDD6229D60D700E7C435 /* Position.swift */,
+				0F002DDF229E46EF00F8C1B6 /* Commander.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0F06EDDA229D656F00E7C435 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				0F06EDDB229D658300E7C435 /* Descriptable.swift */,
+				0F002DD8229E445100F8C1B6 /* Executable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		0F06EDDD229D6EC600E7C435 /* Commands */ = {
+			isa = PBXGroup;
+			children = (
+				0F06EDDE229D6ED400E7C435 /* Left.swift */,
+				0F06EDE0229D6EDE00E7C435 /* Right.swift */,
+				0F06EDE2229D6EE600E7C435 /* Move.swift */,
+				0F002DDA229E44D100F8C1B6 /* Report.swift */,
+				0F002DDD229E457D00F8C1B6 /* Place.swift */,
+			);
+			path = Commands;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F06EDAD229D5DB200E7C435 /* toy-robot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F06EDCB229D5DB500E7C435 /* Build configuration list for PBXNativeTarget "toy-robot" */;
+			buildPhases = (
+				0F06EDAA229D5DB200E7C435 /* Sources */,
+				0F06EDAB229D5DB200E7C435 /* Frameworks */,
+				0F06EDAC229D5DB200E7C435 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "toy-robot";
+			productName = "toy-robot";
+			productReference = 0F06EDAE229D5DB200E7C435 /* toy-robot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0F06EDC1229D5DB500E7C435 /* toy-robotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F06EDCE229D5DB500E7C435 /* Build configuration list for PBXNativeTarget "toy-robotTests" */;
+			buildPhases = (
+				0F06EDBE229D5DB500E7C435 /* Sources */,
+				0F06EDBF229D5DB500E7C435 /* Frameworks */,
+				0F06EDC0229D5DB500E7C435 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F06EDC4229D5DB500E7C435 /* PBXTargetDependency */,
+			);
+			name = "toy-robotTests";
+			productName = "toy-robotTests";
+			productReference = 0F06EDC2229D5DB500E7C435 /* toy-robotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F06EDA6229D5DB200E7C435 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Contentstack;
+				TargetAttributes = {
+					0F06EDAD229D5DB200E7C435 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					0F06EDC1229D5DB500E7C435 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 0F06EDAD229D5DB200E7C435;
+					};
+				};
+			};
+			buildConfigurationList = 0F06EDA9229D5DB200E7C435 /* Build configuration list for PBXProject "toy-robot" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0F06EDA5229D5DB200E7C435;
+			productRefGroup = 0F06EDAF229D5DB200E7C435 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F06EDAD229D5DB200E7C435 /* toy-robot */,
+				0F06EDC1229D5DB500E7C435 /* toy-robotTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F06EDAC229D5DB200E7C435 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F06EDBC229D5DB500E7C435 /* LaunchScreen.storyboard in Resources */,
+				0F06EDB9229D5DB500E7C435 /* Assets.xcassets in Resources */,
+				0F06EDB7229D5DB200E7C435 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F06EDC0229D5DB500E7C435 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F002DE6229F0A3D00F8C1B6 /* TestData in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F06EDAA229D5DB200E7C435 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F002DE0229E46EF00F8C1B6 /* Commander.swift in Sources */,
+				0F002DD9229E445100F8C1B6 /* Executable.swift in Sources */,
+				0F002DDE229E457D00F8C1B6 /* Place.swift in Sources */,
+				0F06EDE3229D6EE600E7C435 /* Move.swift in Sources */,
+				0F06EDDF229D6ED400E7C435 /* Left.swift in Sources */,
+				0F06EDD5229D608900E7C435 /* Robot.swift in Sources */,
+				0F06EDD3229D5EAB00E7C435 /* Table.swift in Sources */,
+				0F06EDE1229D6EDE00E7C435 /* Right.swift in Sources */,
+				0F06EDB4229D5DB200E7C435 /* ViewController.swift in Sources */,
+				0F06EDD7229D60D700E7C435 /* Position.swift in Sources */,
+				0F06EDDC229D658300E7C435 /* Descriptable.swift in Sources */,
+				0F06EDB2229D5DB200E7C435 /* AppDelegate.swift in Sources */,
+				0F06EDD9229D650900E7C435 /* Direction.swift in Sources */,
+				0F002DE3229E49F100F8C1B6 /* String+Extension.swift in Sources */,
+				0F002DDB229E44D100F8C1B6 /* Report.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F06EDBE229D5DB500E7C435 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F002DE8229F175300F8C1B6 /* TableTest.swift in Sources */,
+				0F06EDC7229D5DB500E7C435 /* toy_robotTests.swift in Sources */,
+				0F002DEC229F1C4700F8C1B6 /* PositionTest.swift in Sources */,
+				0F002DEE229F1EA700F8C1B6 /* CommanderTest.swift in Sources */,
+				0F002DEA229F1A7200F8C1B6 /* RobotTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F06EDC4229D5DB500E7C435 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F06EDAD229D5DB200E7C435 /* toy-robot */;
+			targetProxy = 0F06EDC3229D5DB500E7C435 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0F06EDB5229D5DB200E7C435 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F06EDB6229D5DB200E7C435 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0F06EDBA229D5DB500E7C435 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F06EDBB229D5DB500E7C435 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F06EDC9229D5DB500E7C435 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0F06EDCA229D5DB500E7C435 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F06EDCC229D5DB500E7C435 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32QM644P7J;
+				INFOPLIST_FILE = "toy-robot/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.contentstack.toy-robot";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0F06EDCD229D5DB500E7C435 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32QM644P7J;
+				INFOPLIST_FILE = "toy-robot/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.contentstack.toy-robot";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0F06EDCF229D5DB500E7C435 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32QM644P7J;
+				INFOPLIST_FILE = "toy-robotTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.contentstack.toy-robotTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/toy-robot.app/toy-robot";
+			};
+			name = Debug;
+		};
+		0F06EDD0229D5DB500E7C435 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32QM644P7J;
+				INFOPLIST_FILE = "toy-robotTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.contentstack.toy-robotTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/toy-robot.app/toy-robot";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F06EDA9229D5DB200E7C435 /* Build configuration list for PBXProject "toy-robot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F06EDC9229D5DB500E7C435 /* Debug */,
+				0F06EDCA229D5DB500E7C435 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F06EDCB229D5DB500E7C435 /* Build configuration list for PBXNativeTarget "toy-robot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F06EDCC229D5DB500E7C435 /* Debug */,
+				0F06EDCD229D5DB500E7C435 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F06EDCE229D5DB500E7C435 /* Build configuration list for PBXNativeTarget "toy-robotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F06EDCF229D5DB500E7C435 /* Debug */,
+				0F06EDD0229D5DB500E7C435 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F06EDA6229D5DB200E7C435 /* Project object */;
+}
