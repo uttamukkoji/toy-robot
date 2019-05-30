@@ -21,6 +21,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func placeRobot(_ sender: Any) {
+        commander.robot.reportArray.removeAll()
         if let xString = xText.text, let yString = yText.text, let diretionString = directionText.text {
             commander.parse(command: "PLACE \(xString), \(yString), \(diretionString)")
         }
@@ -29,7 +30,6 @@ class ViewController: UIViewController {
     @IBAction func executeCommander(_ sender: Any) {
         commander.execute()
         commander.commanderArray.removeAll()
-        commander.robot.reportArray.removeAll()
         self.xText.text = nil
         self.yText.text = nil
         self.directionText.text = nil
